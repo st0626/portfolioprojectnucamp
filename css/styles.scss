@@ -1,0 +1,40 @@
+$body-background: rgb(54, 54, 54);
+$font-stack: 'Poppins', sans-serif;
+$primary-color: #fff;
+$hero-2: linear-gradient(to right, #4ca1af, #c4e0e5);
+
+
+
+body {
+    background-color: $body-background;
+    font-family: $font-stack;
+}
+
+.hero {
+    padding: 50px;
+    background: linear-gradient(30deg, #1f4037, #53f7a5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: $primary-color;
+}
+
+.nav {
+    a {
+        color: $primary-color;
+    }
+}
+
+.hero2 {
+    background: url('/images/band.jpg');
+    background-size: 100%;
+    padding-bottom: 50px;
+}
+
+.card {
+    .card-body {
+        button {
+            width: 100%;
+        }
+    }
+}
+
+
+
