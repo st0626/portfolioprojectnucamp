@@ -19,11 +19,11 @@
 <body>
 
     <header>
-        <ul class="nav d-flex flex-row-reverse text-white-50">
+        <ul class="nav d-flex flex-row text-white-50">
             <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#">About</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+            <button class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
         </ul>
     </header>
     <div class="hero">
@@ -31,6 +31,29 @@
         <hr>
         <p>Here at live bands, we have a rating system that covers the live performance of the band you want to see! From one to five stars, five being the best, one being the worst, we strive to bring accurate information from your peers so you can make an educated decision if you want to go see this particular band.</p>
     </div>
+    
+
+    <div class="modal fade" tabindex="-1" id="loginModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Login</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <label for="input1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="input1" placeholder="Email@email.com">
+                <label for="input2" class="form-label">Password</label>
+                <input type="password" class="form-control" id="input2">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success">Login</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
     
 
     <div class="hero2">
@@ -69,7 +92,7 @@
                             <h5>Slaughter</h5>
                             <hr>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni exercitationem eaque alias mollitia! Odio adipisci quos ad pari.</p>
-                            <p class="text-center"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+                            <p class=" icons text-center"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
                             <button class="btn btn-success">Rate</button>
                         </div>
                     </div>
@@ -96,8 +119,6 @@
     </div>
 
 
-    <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="node_modules/@popperjs/core/dist/cjs/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="js/scripts.js"></script>
 
