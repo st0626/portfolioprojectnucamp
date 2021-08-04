@@ -19,11 +19,11 @@
 <body>
 
     <header>
-        <ul class="nav d-flex flex-row text-white-50">
-            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        <ul class="nav d-flex justify-content-center text-white-50">
+            <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-            <button class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+            <li class="nav-item"><a class="nav-link" id="loginButton" href="#">Login</a></li>
         </ul>
     </header>
     <div class="hero">
@@ -64,7 +64,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col">
+                <div class="col-md-4 pt-5">
                     <div class="card">
                         <div class="card-body">
                             <h5>Eminem</h5>
@@ -75,8 +75,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card hideme">
+                <div class="col-md-4 pt-5">
+                    <div class="card">
                         <div class="card-body">
                             <h5>System of a Down</h5>
                             <hr>
@@ -86,7 +86,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-4 pt-5">
                     <div class="card">
                         <div class="card-body">
                             <h5>Slaughter</h5>
@@ -107,10 +107,10 @@
                 <div class="col pt-5">
                     <h1 class="display-4 text-white text-center">Register</h1>
                     <form action="post">
-                        <label for="input1" class="form-label text-white">Email address</label>
-                        <input type="email" class="form-control" id="input1" placeholder="Email@email.com">
-                        <label for="input2" class="form-label text-white">Password</label>
-                        <input type="password" class="form-control" id="input2">
+                        <label for="input3" class="form-label text-white">Email address</label>
+                        <input type="email" class="form-control" id="input3" placeholder="Email@email.com">
+                        <label for="input4" class="form-label text-white">Password</label>
+                        <input type="password" class="form-control" id="input4">
                         <p type="Submit" class="mt-4 btn btn-success">Submit</p>
                     </form>
                 </div>

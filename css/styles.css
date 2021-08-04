@@ -18,3 +18,9 @@ body {
 
 .card .card-body button {
   width: 100%; }
+
+a:hover {
+  background-color: #04be2d; }
+
+.nav-link:hover {
+  color: white; }

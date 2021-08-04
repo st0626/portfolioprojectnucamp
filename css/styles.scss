@@ -2,6 +2,7 @@ $body-background: rgb(54, 54, 54);
 $font-stack: 'Poppins', sans-serif;
 $primary-color: #fff;
 $hero-2: linear-gradient(to right, #4ca1af, #c4e0e5);
+$link-background: #04be2d;
 
 
 
@@ -36,3 +37,10 @@ body {
     }
 }
 
+a:hover {
+    background-color: $link-background;
+}
+
+.nav-link:hover{
+    color: white;
+}
